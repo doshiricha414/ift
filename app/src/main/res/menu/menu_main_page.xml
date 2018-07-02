@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.addit.ift.Activity.MainPage">
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:title="@string/logOut"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/update_profile"
+        android:orderInCategory="100"
+        android:title="@string/action_update_profile"
+        app:showAsAction="never" />
+    <item
+        android:title="Search Event"
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+</menu>

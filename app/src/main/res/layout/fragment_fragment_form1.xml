@@ -1,0 +1,294 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.addit.ift.Fragments.Fragment_form1">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rectangle_round_corners_white"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Your detaisl would be really helpful!!"
+                android:textAlignment="center"
+                android:textSize="13dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+
+                            android:text="State"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+
+                                android:id="@+id/expandableButton1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:background="#DCDCDC"
+                                android:drawableRight="@drawable/drop_down"
+                                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/txt_help_gest1"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="#F0F0F0"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+
+                            android:text="City"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/expandableButton2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:background="#DCDCDC"
+                                android:drawableRight="@drawable/drop_down"
+                                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/txt_help_gest2"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="#F0F0F0"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+
+                            android:text="Station"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/expandableButton3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:background="#DCDCDC"
+                                android:drawableRight="@drawable/drop_down"
+                                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/txt_help_gest3"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="#F0F0F0"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+
+                            android:text="Name"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/expandableButton4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="20dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:background="#DCDCDC"
+                                android:drawableRight="@drawable/drop_down"
+                                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/txt_help_gest4"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="#F0F0F0"
+                                android:textAlignment="center"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textSize="15dp"
+                            android:layout_gravity="center_vertical"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center" />
+
+                            <ImageView
+                                android:id="@+id/datepicker"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/calendar" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Timings" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:hint="8am-10am" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/tab1"
+        android:gravity="center"
+        android:text="PROCEED"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+</FrameLayout>

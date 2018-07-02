@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="Indian Football Tournaments"
+        android:textColor="#6B9C76"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/transparent_tab"
+        android:gravity="center_vertical"
+        android:text="log in"
+        android:textAlignment="center"
+        android:textColor="#906B9C76"
+
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="32dp"></ImageView>
+
+    <TextView
+        android:id="@+id/create_acc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/tab"
+        android:gravity="center_vertical"
+        android:text="create account"
+        android:textAlignment="center"
+        android:textColor="#90ffffff"
+        android:textSize="20dp"
+        android:layout_above="@+id/sign_in"
+        android:layout_alignLeft="@+id/sign_in"
+        android:layout_alignStart="@+id/sign_in"
+        android:layout_alignRight="@+id/sign_in"
+        android:layout_alignEnd="@+id/sign_in" />
+
+</RelativeLayout>

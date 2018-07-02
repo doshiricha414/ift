@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.addit.ift.Activity.Five_a_Side"
+    tools:showIn="@layout/activity_five_a__side">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/grey">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/like_orange" />
+
+            <TextView
+                android:id="@+id/like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textColor="@color/orange"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40dp">
+
+                <ImageView
+                    android:id="@+id/imageview1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/profile1" />
+
+                <ImageView
+                    android:id="@+id/imageview2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/profile2" />
+
+                <ImageView
+                    android:id="@+id/imageview3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/profile3" />
+
+                <ImageView
+                    android:id="@+id/imageview4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/profile4" />
+
+                <ImageView
+                    android:id="@+id/imageview5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/profile5" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/expandableButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#ffffff"
+                android:clickable="true"
+                android:drawableRight="@drawable/drop_down"
+
+                android:text="ADDRESS"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/txt_help_gest1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="18dp"
+
+                android:text="B2 Ground Floor Nikunj Darshan,\nOpp. Hinduja Hall,\nDaulat Nagar Road No.9,\nBorivali(East), Mumbai-400066." />
+
+            <Button
+                android:id="@+id/expandableButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#ffffff"
+
+                android:drawableRight="@drawable/drop_down"
+                android:text="ADITIONAL DETAILS"
+
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/txt_help_gest2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="\n\nnothing"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/expandableButton3"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#ffffff"
+                android:drawableRight="@drawable/drop_down"
+                android:text="PRIZE MONEY"
+
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/txt_help_gest3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="\n\nRs. 50,000/-"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

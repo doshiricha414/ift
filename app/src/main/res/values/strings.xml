@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Indian Football Tournament</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="action_settings">Settings</string>
+    <string name="logOut">Logout</string>
+    <string name="action_update_profile">Update Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">1218165484884053</string>
+    <string name="fb_login_protocol_scheme">fb1218165484884053</string>
+    <string name="TWITTER_KEY">B9NKj1EGsEJ4poqv2uG2jiaTP</string>
+    <string name="TWITTER_SECRET">QQSJ16IuoCyFxRk4PEAge9tVyQL6RdZQDEHmogo70sfpxCHL4P</string>
+    <string name="fb_debug_keystore">xTEwtgf+lkjaqi+kI5SLBeI24wU=</string>
+    <string name="fb_release_keystore">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+
+    <string name="title_activity_five_a__side">Five_a_Side</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
